@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .color-box {
+    border-radius: 10px;
+  }
+  
+  .color-option {
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    transition: transform 0.2s;
+  }
+  
+  .color-option:hover {
+    transform: scale(1.1);
+  }
+  

@@ -1,0 +1,33 @@
+@keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  .fade-out {
+    animation: fadeOut 1s ease-out;
+    color: red;
+  }
+  
+
+  @keyframes celebrate {
+    0% {
+      transform: scale(1);
+      color: green;
+    }
+    50% {
+      transform: scale(1.2);
+      color: lime;
+    }
+    100% {
+      transform: scale(1);
+      color: green;
+    }
+  }
+  
+  .celebrate {
+    animation: celebrate 0.5s ease-in-out;
+  }
